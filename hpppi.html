@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<meta name="generator" content="Adobe GoLive" />
+		<title>Host-Pathogen Protein Interactions</title>
+		<style type="text/css" media="screen"><!--
+			#outline { background-color: #CFECEC; position: relative; height: auto; width: 800px; margin: 18px auto 0; border: solid 1px #999; }
+			p { color: #666; font-size: 16px; font-family: "Lucida Grande", Arial, sans-serif; font-weight: normal; margin-top: 0; }
+			h1 { color: #086A87; font-size: 16px; font-family: "Lucida Grande", Arial, sans-serif; font-weight: normal;margin-top: 4px; margin-bottom: 2px }
+			h2 { color: #086A87; font-size: 14px; font-family: "Lucida Grande", Arial, sans-serif; font-weight: normal; margin-top: 2px; margin-bottom: 2px}
+			h3 { color: #666; font-size: 30px; font-family: "Lucida Grande", Arial, sans-serif; font-weight: bold; margin-bottom: 15px }
+			h4 { color: #666; font-size: 20px; font-family: "Lucida Grande", Arial, sans-serif; font-weight: bold; margin-bottom: 15px }
+			a { color: #666; text-decoration: underline; }
+		--></style>
+<script type="text/javascript">
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-43066490-1', 'cmu.edu');
+            ga('send', 'pageview');
+
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-43066490-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+	</head>
+
+	<body>
+		<div id="outline">
+			  <table cellpadding=15>
+				<tr>
+				        <td><table>
+					<tr>
+					<td width=40%><img src=bact.jpg width=150 height=150 /> </td>
+					<td align=center><h3>Modeling diseases at <br> a molecular level</h3></td>
+					</tr>
+					<tr><td><br><br></td></tr>
+					</table>
+					<table>
+					<tr>
+					<td valign=top>
+					<h1><b>Summary:</b><br> Infectious diseases involve molecular interactions between the invading organisms such as viruses and bacteria (i.e <i>pathogens</i>) and the infected organisms i.e <i>hosts</i>.
+					Protein-protein interactions are a key mechanism in cellular
+					physiology and also in pathogen infections of hosts.
+					This project pushes the limits of
+					machine learning methods on sparse data, including new transfer learning techniques as well as active learning, to predict host-pathogen
+					interactomes, leveraging known interactions from better studied
+					pathogens to infer potential interactions in other less-well-studied
+					ones, resulting in improved prediction accuracy.
+					</h1>
+					</tr>
+					</table>
+					<table>
+					<tr><td>
+					<h1><br><b>Motivation for transfer-learning approaches:</b><br>Via host-pathogen protein interactions, the pathogen manipulates important biological processes in the host cell, evades host immune response and multiplies within the host. Interactions between host and pathogen proteins can be studied using small-scale biochemical, biophysical and genetic experiments or large-scale high-throughput screening methods like yeast two-hybrid (Y2H) assays.
+					<br><br>
+					Databases like PHI-base, PHISTO, HPIDB etc aggregate host-pathogen protein interactions from several small-scale and high throughput experiments via manual literature curation. These databases are valuable sources of information for developing models of the modus-operandi of pathogens. However, interaction datasets from these databases are not only small but are available for only a few well studied pathogens. Computationally, this calls for techniques that combine datasets and build joint models across several pathogens which can then be used to analyse the commonalities in the pathogens and also to predict plausible interactions which are biased by this joint understanding. From the machine-learning perspective, this problem can be formulated as a transfer learning problem.</h1>
+					</td>
+					<td width=40%>
+					  <table cellpadding=5>
+					  <tr><td align=center><img src=virus.jpg width=280 height=150 /></td></tr>
+					  <tr><td align=center><img src=hpppi.png width=180 height=280 /> </td> </tr>
+					  </table>
+					</td>
+					</tr>
+					</table>
+
+					</td>
+				</tr>
+				</table>
+
+				<br>
+				<table width=90% cellpadding=15>
+				<tr><td>
+				<h4>Relevant Publications</h4>
+				<br>
+				<h2><b>Multi-task learning for Host-Pathogen protein interactions</b>, Meghana Kshirsagar, Jaime Carbonell and Judith Klein-Seetharaman, <i>ISMB 2013, Berlin. Bioinformatics 2013</i>. [<a href="http://bioinformatics.oxfordjournals.org/content/29/13/i217.long" onclick="_gaq.push(['_trackEvent', 'ismb2013', 'clicked'])">Paper</a>] [<a href="http://www.cs.cmu.edu/~mkshirsa/ismb2013_paper320.html" onclick="_gaq.push(['_trackEvent', 'supplementary_ismb2013', 'clicked'])">Supplementary Info</a>]</h2>
+				<br>
+				<h2><b>Techniques to cope with missing data in host-pathogen protein interaction prediction</b>, Meghana Kshirsagar, Jaime Carbonell and Judith Klein-Seetharaman, <i>Bioinformatics 2012 (also presented at ECCB 2012, Basel)</i>. [<a href="http://bioinformatics.oxfordjournals.org/content/28/18/i466.full" onclick="_gaq.push(['_trackEvent', 'eccb2012', 'clicked'])">Paper</a>] [<a href="http://www.cs.cmu.edu/~mkshirsa/eccb2012_paper46.html">Supplementary Info</a>]</h2>
+				<br>
+				<h2><b>Transfer learning based methods towards the discovery of host-pathogen protein-protein interactions</b>, Meghana Kshirsagar, Jaime Carbonell and Judith Klein-Seetharaman, <i>ISMB 2012</i>. [<a href="./papers/ismb2012_poster.pdf" onclick="_gaq.push(['_trackEvent', 'ismb2012_poster', 'clicked'])">Poster</a>]</h2>
+				<br>
+				<h2><b>Virus interactions with human signal transduction pathways</b>, Zhongming Zhao, Junfeng Xia, Oznur Tastan, Irtisha Singh, Meghana Kshirsagar, Jaime G. Carbonell, Judith Klein-Seetharaman <i> International journal of computational biology and drug design (IJCBDD) 2011</i></h2>
+				<br>
+				<h2><b>Semi-supervised multi-task learning for predicting interactions between HIV-1 and human proteins</b>, Yanjun Qi, Oznur Tastan, Jaime G. Carbonell, Judith Klein-Seetharaman, Jason Weston <i>Bioinformatics 2010</i></h2>
+				<br>
+				<h2><b>Prediction of interactions between HIV-1 and human proteins by information integration</b>, Oznur Tastan, Yanjun Qi, Jaime G. Carbonell, Judith Klein-Seetharaman <i>Pacific Symposium on Biocomputing, 2009</i></h2>
+				<br>
+				<h2><b>Communication interception of human signal transduction pathways by Human Immunodeficiency Virus-1</b>, Sivaraman Balakrishnan, Oznur Tastan, Jaime G. Carbonell, Judith Klein-Seetharaman, <i>GENSiPS 2009</i></h2>
+				</td></tr>
+				</table>
+
+		<table>
+		<br><br><br>
+		</table>
+		</div>
+	</body>
+
+</html>
